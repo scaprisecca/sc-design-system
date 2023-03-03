@@ -38,6 +38,44 @@
 
 }
 
+/* --- DEFAULTS --- */
+
+p {
+    margin: 0;
+}
+
+* + p {
+    margin-top: var(--m-space);
+}
+
+.owl--xs * + * {
+    margin-top: var(--xs-space);
+}
+
+.owl--sm * + * {
+    margin-top: var(--s-space);
+}
+
+.owl--md * + * {
+    margin-top: var(--m-space);
+}
+
+.owl--lg * + * {
+    margin-top: var(--l-space);
+}
+
+.owl--xl * + * {
+    margin-top: var(--xl-space);
+}
+
+
+
+/* --- CLASSES --- */
+
+/* -- Utility Classes -- */
+
+/* - Text Size - */
+
 .h1 {
     font-size: var(--h1);
 }
@@ -62,15 +100,19 @@
     font-size: var(--h6);
 }
 
-/* --- CLASSES --- */
-
-/* - Utility Classes - */
-
-.full-width {
+.width--full {
     width: 100%;
 }
 
-.width--full
+.width--50 {
+    width: 50%
+}
+
+.width--25 {
+    width: 25%;
+}
+
+
 
 
 
